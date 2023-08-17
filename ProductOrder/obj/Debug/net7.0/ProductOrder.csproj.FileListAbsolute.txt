@@ -1,0 +1,15 @@
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\bin\Debug\net7.0\ProductOrder.exe
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\bin\Debug\net7.0\ProductOrder.deps.json
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\bin\Debug\net7.0\ProductOrder.runtimeconfig.json
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\bin\Debug\net7.0\ProductOrder.dll
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\bin\Debug\net7.0\ProductOrder.pdb
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\ProductOrder.csproj.AssemblyReference.cache
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\ProductOrder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\ProductOrder.AssemblyInfoInputs.cache
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\ProductOrder.AssemblyInfo.cs
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\ProductOrder.csproj.CoreCompileInputs.cache
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\ProductOrder.dll
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\refint\ProductOrder.dll
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\ProductOrder.pdb
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\ProductOrder.genruntimeconfig.cache
+C:\Users\OMEN\Desktop\VS Code\ProductOrder\obj\Debug\net7.0\ref\ProductOrder.dll

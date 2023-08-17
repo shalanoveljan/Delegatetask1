@@ -1,0 +1,15 @@
+C:\Users\OMEN\Desktop\VS Code\FileTask\bin\Debug\net7.0\FileTask.exe
+C:\Users\OMEN\Desktop\VS Code\FileTask\bin\Debug\net7.0\FileTask.deps.json
+C:\Users\OMEN\Desktop\VS Code\FileTask\bin\Debug\net7.0\FileTask.runtimeconfig.json
+C:\Users\OMEN\Desktop\VS Code\FileTask\bin\Debug\net7.0\FileTask.dll
+C:\Users\OMEN\Desktop\VS Code\FileTask\bin\Debug\net7.0\FileTask.pdb
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\FileTask.csproj.AssemblyReference.cache
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\FileTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\FileTask.AssemblyInfoInputs.cache
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\FileTask.AssemblyInfo.cs
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\FileTask.csproj.CoreCompileInputs.cache
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\FileTask.dll
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\refint\FileTask.dll
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\FileTask.pdb
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\FileTask.genruntimeconfig.cache
+C:\Users\OMEN\Desktop\VS Code\FileTask\obj\Debug\net7.0\ref\FileTask.dll

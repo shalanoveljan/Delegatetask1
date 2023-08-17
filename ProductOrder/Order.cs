@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductOrder
 {
+        public delegate double OrderDelegate(Order order);
     internal class Order
     {
         public List<Product> Products { get; set; }
@@ -38,7 +39,6 @@ namespace ProductOrder
         }
 
 
-        public delegate double OrderDelegate(Order order);
 
         public void Satish(Order order, OrderDelegate orderdel)
         {

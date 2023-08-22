@@ -6,73 +6,53 @@ using System.Threading.Tasks;
 
 namespace ProductOrder
 {
-        public delegate double OrderDelegate(Order order);
     internal class Order
     {
         public List<Product> Products { get; set; }
-        public double totalPrice
-        {
-            get
-            {
-                double total = 0;
-                foreach (var item in Products)
-                {
-                    total = total + (item.Price * item.count);
-                }
-                return total;
-            }
-            private set { }
-        }
-
-        public DateTime date { get; set; }
+        public double TotalPrice { get; private set; }
+        public DateTime Date { get; set; }
 
         public Order()
         {
             Products = new List<Product>();
-            date = DateTime.Now;
-
         }
-        public void AddProduct(Product product)
+
+        public void Sale(Func<double> method=null)
         {
-            Products.Add(product);
-           // product.count--;
+            Products.ForEach(x =>
+            {
+                TotalPrice += x.Price*x.Count;
+            });
+            Console.WriteLine($"Total price without discount is: {TotalPrice}");
+            method ??= ChangeTotalPrice;
+            Date = DateTime.Now;
+            Console.WriteLine(TotalPrice*=method());
         }
 
-
-
-        public void Satish(Order order, OrderDelegate orderdel)
+        public double ChangeTotalPrice()
         {
-
-            double discountAmount = orderdel(order);
-           order.totalPrice -= discountAmount;
-
-
-            //}
-
-            //public double Satish1(Order order )
-            //{ 
-            //      order.totalPrice = order.totalPrice + order.totalPrice * 0;
-
-            //    return order.totalPrice;
-
-            //}
-
-            //public double Satish2(Order order)
-            //{   
-            //    order.totalPrice -= (order.totalPrice * 10) / 100;
-            //    return order.totalPrice;
-
-            //}
-
-            //public  bool Satish3(Order order)
-            //{ 
-            //        order.totalPrice -= (order.totalPrice * 20) / 100;
-            //        return order.totalPrice;
-
-            //}
-
-
-
+            if (TotalPrice < 100)
+            {
+                return 1;
+            }
+            else if (TotalPrice >= 100 && TotalPrice <= 200)
+            {
+                return 0.9;
+            }
+            else if (TotalPrice > 200 && TotalPrice <= 400)
+            {
+                return 0.8;
+            }
+            else if(TotalPrice>400 && TotalPrice<=600)
+            {
+                return 0.65;
+            }
+            else
+            {
+                return 0.5;
+            }
         }
+        
     }
+    
 }

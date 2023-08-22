@@ -1,21 +1,19 @@
 ﻿using ProductOrder;
 
 
-Order order= new Order();
+Product product1 = new Product("Monitor", 100, 4);
+Product product2 = new Product("Mouse", 50, 5);
+Product product3 = new Product("Keyboard", 70, 3);
 
-
-Product product = new Product("alma", 50, 1);
-Product product1 = new Product("armud", 30, 1);
-Product product2 = new Product("nar", 70, 1);
-
-order.AddProduct(product);
-order.AddProduct(product1);
-order.AddProduct(product2);
-
-order.Satish(order,(order) =>
+List<Product> products = new List<Product>()
 {
-    if (order.totalPrice <= 100) return order.totalPrice-(int)order.totalPrice;
-    if (order.totalPrice>100 && order.totalPrice <= 200) return order.totalPrice-(int) (order.totalPrice * 10) / 100;
-    return  order.totalPrice - (int)(order.totalPrice * 20) / 100;
-});
-Console.WriteLine(order.totalPrice);
+    product1,
+    product2,
+    product3
+};
+
+
+Order order = new Order();
+order.Products = products;
+
+order.Sale();

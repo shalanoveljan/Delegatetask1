@@ -8,11 +8,28 @@ namespace FileTask
 {
     internal class MainPrintFile
     {
-        public MainPrintFile(Excel excel,Word word,Pdf pdf)
+         private object _obj;
+
+    public MainPrintFile(object obj)
+    {
+        _obj = obj;
+    }
+
+    public void Print()
+    {
+        if (_obj is Word)
         {
-            excel = new Excel();
-            word = new Word();
-            pdf = new Pdf();
+            ((Word)_obj).Print();
         }
+        else if (_obj is Excel)
+        {
+            ((Excel)_obj).Print();
+        }
+        else if (_obj is PDF)
+        {
+            ((PDF)_obj).Print();
+        }
+    }
+}
     }
 }

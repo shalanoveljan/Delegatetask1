@@ -8,9 +8,9 @@ namespace FileTask
 {
     internal class Word
     {
-        public Word()
-        {
-            Console.WriteLine("Word cap edildi");
-        }
+        public void Print()
+    {
+        Console.WriteLine("Word is printed");
+    }
     }
 }

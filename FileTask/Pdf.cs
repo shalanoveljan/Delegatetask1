@@ -9,9 +9,9 @@ namespace FileTask
     internal class Pdf
     {
 
-        public Pdf()
-        {
-            Console.WriteLine("Pdf cap edildi");
-        }
+        public void Print()
+    {
+        Console.WriteLine("Word is printed");
+    }
     }
 }
